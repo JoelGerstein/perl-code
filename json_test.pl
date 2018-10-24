@@ -7,8 +7,9 @@ my $debug = 1;
 my @Query_Years = ( 2019 );
 print STDOUT "FiscalYear,State,Zip,City,DestinationID,LocationDefined,Meals,Oct,Nov,Dec,Jan,Feb,Mar\n";
 
-# shorter list, extracted from navair travel destinations-2018
+# shorter list
 #my @States = qw( AL AZ CA CO CT DC FL GA IA IL IN KS KY MA MD MI MO MS NC NH NJ NM NV NY OH OK OR PA RI SC TN TX UT VA WA );
+# full state list
 my @States = qw( AL AK AZ AR CA CO CT DE DC FL GA HI ID IA IL IN KS KY LA MA MD ME MI MN MO MS MT NC ND NE NH NJ NM NV NY OH OK OR PA RI SC SD TN TX UT VA VT WA WV WI WY );
 #my @States = qw( OK ); # for testing
 #Extras: AS GU MH FM MP PW PR VI	
